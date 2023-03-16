@@ -1,5 +1,4 @@
 ###
-
 #Quick python script for scraping images off of a webcomic. Relies on the webcomic using a numbers format for its pages.
 ###
 
@@ -11,7 +10,7 @@ import requests
 base_url = "https://www.webcomic.com/a/comic/"
 
 # Define the start and end number for the webcomic pages. Try not to leave end_number on 9999...
-# if webcomic usings a format that doesn't start with zeros, you'll need to comment out the six lines near the bottom of the script.
+# if webcomic uses a format that doesn't start with zeros, you'll need to comment out the six lines near the bottom of the script.
 start_number = "0001"
 end_number = "9999"
 
